@@ -28,8 +28,8 @@ Tổng hợp các nghiên cứu về tự động hóa quy trình R&D khoa học
 
 | Paper | Key Contribution / Takeaway | Status |
 | --- | --- | --- |
-| [Can AI agents conduct open-ended AI research?](../papers/can-ai-agents-conduct-open-ended-ai-research/analysis.md) | Giới thiệu Shadow Evaluations và chỉ ra sự khác biệt giữa R&D Engineering và Open-ended Science. | ⭐ Must Read |
 | [Towards end-to-end automation of AI research](../papers/towards-end-to-end-automation-of-ai-research/analysis.md) | Kiến trúc hệ thống *The AI Scientist* — tự động hóa khép kín 100% quy trình từ ý tưởng đến bài báo và tự phản biện với giá $15/bài. | ⭐ Must Read |
+| [Can AI agents conduct open-ended AI research?](../papers/can-ai-agents-conduct-open-ended-ai-research/analysis.md) | Giới thiệu Shadow Evaluations và chỉ ra sự khác biệt giữa R&D Engineering và Open-ended Science. | ⭐ Must Read |
 | [From AI for Science to Agentic Science](../papers/from-ai-for-science-to-agentic-science/analysis.md) | Bài khảo sát toàn cảnh định hình thang 4 cấp độ tự chủ và quy trình 4 giai đoạn trên các ngành Sinh, Hóa, Vật liệu, Vật lý. | ⭐ Must Read |
 
 ---

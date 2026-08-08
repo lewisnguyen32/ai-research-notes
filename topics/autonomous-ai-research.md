@@ -10,10 +10,10 @@ Lộ trình đọc này kết nối 3 bài báo quan trọng nhất đại diệ
 ## 📍 Bản Đồ Đọc (Reading Map Flow)
 
 ```
-[01. Can AI agents conduct open-ended AI research?] (Thực chứng & Ranh giới)
+[01. Towards end-to-end automation of AI research] (Kiến trúc & Tự động hóa Pipeline)
                          │
-                         ▼ (Chuyển tiếp: Xây dựng quy trình tự động 100% như thế nào?)
-[02. Towards end-to-end automation of AI research] (Kiến trúc & Tự động hóa Pipeline)
+                         ▼ (Chuyển tiếp: Khi đặt vào bài toán thực tế mở không có template, AI sẽ ra sao?)
+[02. Can AI agents conduct open-ended AI research?] (Thực chứng & Ranh giới Năng lực)
                          │
                          ▼ (Chuyển tiếp: Từ code AI mở rộng ra phòng lab thực tế Sinh/Hóa/Vật lý)
 [03. From AI for Science to Agentic Science] (Khảo sát toàn cảnh & Khung lý thuyết)
@@ -23,25 +23,9 @@ Lộ trình đọc này kết nối 3 bài báo quan trọng nhất đại diệ
 
 ## 📖 Chi Tiết Lộ Trình Đọc (Paper-by-Paper Progression)
 
-### 🗺️ Mốc 01: Thực Chứng Ranh Giới Năng Lực AI trong Nghiên cứu Mở
+### 🗺️ Mốc 01: Tự Động Hóa Toàn Diện Quy Trình Nghiên Cứu ML
 
-📄 **[01. Can AI agents conduct open-ended AI research? Early evidence from two case studies](../papers/can-ai-agents-conduct-open-ended-ai-research/analysis.md)** (Kirgis et al., 2026)  
-🔗 Links: 📝 [Analysis](../papers/can-ai-agents-conduct-open-ended-ai-research/analysis.md) | 🇻🇳 [Bản Dịch](../papers/can-ai-agents-conduct-open-ended-ai-research/translation-vi.md) | 📄 [PDF](../papers/can-ai-agents-conduct-open-ended-ai-research/paper.pdf)
-
-- **Paper hỏi câu hỏi gì?**  
-  Khi được cấp ngân sách tính toán thực tế ($3,000 API budget, GPU đầy đủ, 6 ngày làm việc) trên bài toán NeurIPS chưa công bố, liệu các AI Agent hàng đầu (Claude Opus 4.8, GPT-5.6 Sol) có thể tự chủ nghiên cứu khoa học mở hay không?
-- **Nó chứng minh được gì?**  
-  Chứng minh sự phân tách tuyệt đối giữa **Tầng Kỹ thuật R&D (Execution Layer)** và **Tầng Định hướng Nghiên cứu (Direction Layer)**. Agent đạt 100% tự chủ về kỹ thuật (coding, quản lý cluster, LaTeX, sửa lỗi build), nhưng thất bại 100% về mặt nghiên cứu khoa học mở (bị tác giả gốc từ chối hoàn toàn với điểm 1-2/6).
-- **Nó chưa giải quyết được gì?**  
-  Chưa tìm ra phương pháp giúp Agent vượt qua 5 Failure Modes (thiếu tư duy thẩm định, lạm phát điểm tự chấm, không biết backtrack cấp độ dự án, trôi dạt ngữ cảnh kéo dài).
-- **Vì sao nên đọc paper tiếp theo?**  
-  Paper #01 cho thấy AI thất bại ở bài toán mở không có hướng dẫn. Nhưng làm thế nào một hệ thống AI được thiết kế quy trình tự động 100% từ đầu đến cuối (end-to-end pipeline) lại có thể chạy thành công trong môi trường bài toán đóng? Đọc Paper #02 để hiểu kiến trúc của *The AI Scientist*.
-
----
-
-### 🗺️ Mốc 02: Tự Động Hóa Toàn Diện Quy Trình Nghiên Cứu ML
-
-📄 **[02. Towards end-to-end automation of AI research (The AI Scientist)](../papers/towards-end-to-end-automation-of-ai-research/analysis.md)** (Lu et al., Sakana AI / Nature 2026)  
+📄 **[01. Towards end-to-end automation of AI research (The AI Scientist)](../papers/towards-end-to-end-automation-of-ai-research/analysis.md)** (Lu et al., Sakana AI / Nature 2026)  
 🔗 Links: 📝 [Analysis](../papers/towards-end-to-end-automation-of-ai-research/analysis.md) | 🇻🇳 [Bản Dịch](../papers/towards-end-to-end-automation-of-ai-research/translation-vi.md) | 📄 [PDF](../papers/towards-end-to-end-automation-of-ai-research/paper.pdf)
 
 - **Paper hỏi câu hỏi gì?**  
@@ -50,8 +34,24 @@ Lộ trình đọc này kết nối 3 bài báo quan trọng nhất đại diệ
   Chứng minh tính khả thi về mặt kiến trúc hệ thống: *The AI Scientist* tạo ra một bài báo khoa học đầy đủ cấu trúc với chi phí chỉ **~$15/bài**. Nó có thể tìm ra các cải tiến thuật toán nhỏ (learning rate schedule, loss function) trong các template mã nguồn có sẵn.
 - **Nó chưa giải quyết được gì?**  
   Chưa giải quyết được hiện tượng trích dẫn ảo giác (hallucinated references), lạm phát chất lượng bài báo, và rủi ro agent "nịnh" mô hình LLM Reviewer. Khả năng phát minh bị giới hạn trong không gian template sẵn có.
-- **Vì sao nên đọc paper tiếp me?**  
-  Cả Paper #01 và #02 đều giới hạn phạm vi trong lĩnh vực Nghiên cứu AI (mã nguồn phần mềm). Nhưng làm thế nào tự động hóa nghiên cứu được áp dụng ra toàn bộ các ngành Khoa học tự nhiên thực nghiệm (Sinh học, Hóa học, Vật liệu, Vật lý) với sự xuất hiện của robot phòng thí nghiệm? Đọc Paper #03 để mở rộng tầm nhìn toàn cảnh.
+- **Vì sao nên đọc paper tiếp theo?**  
+  Paper #01 chứng minh tính khả thi về mặt kiến trúc phần mềm trong bài toán đóng (dựa trên template). Nhưng điều gì xảy ra khi giao cho Agent một bài toán nghiên cứu mở (open-ended) hoàn toàn chưa công bố và không có gợi ý sẵn? Đọc Paper #02 để kiểm chứng thực tế phũ phàng qua *Shadow Evaluations*.
+
+---
+
+### 🗺️ Mốc 02: Thực Chứng Ranh Giới Năng Lực AI trong Nghiên cứu Mở
+
+📄 **[02. Can AI agents conduct open-ended AI research? Early evidence from two case studies](../papers/can-ai-agents-conduct-open-ended-ai-research/analysis.md)** (Kirgis et al., 2026)  
+🔗 Links: 📝 [Analysis](../papers/can-ai-agents-conduct-open-ended-ai-research/analysis.md) | 🇻🇳 [Bản Dịch](../papers/can-ai-agents-conduct-open-ended-ai-research/translation-vi.md) | 📄 [PDF](../papers/can-ai-agents-conduct-open-ended-ai-research/paper.pdf)
+
+- **Paper hỏi câu hỏi gì?**  
+  Khi được cấp ngân sách tính toán thực tế ($3,000 API budget, GPU đầy đủ, 6 ngày làm việc) trên bài toán NeurIPS chưa công bố, liệu các AI Agent hàng đầu (Claude Opus 4.8, GPT-5.6 Sol) có thể tự chủ nghiên cứu khoa học mở hay không?
+- **Nó chứng minh được gì?**  
+  Chứng minh sự phân tách tuyệt đối giữa **Tầng Kỹ thuật R&D (Execution Layer)** và **Tầng Định hướng Nghiên cứu (Direction Layer)**. Agent đạt 100% tự chủ về kỹ thuật (coding, quản lý cluster, LaTeX, sửa lỗi build), nhưng thất bại 100% về mặt nghiên cứu khoa học mở (bị tác giả gốc từ chối hoàn toàn với điểm 1-2/6).
+- **Nó chưa giải quyết được gì?**  
+  Chưa tìm ra phương pháp giúp Agent vượt qua 5 Failure Modes (thiếu tư tư duy thẩm định, lạm phát điểm tự chấm, không biết backtrack cấp độ dự án, trôi dạt ngữ cảnh kéo dài).
+- **Vì sao nên đọc paper tiếp theo?**  
+  Cả Paper #01 và #02 đều giới hạn phạm vi trong lĩnh vực Nghiên cứu AI (mã nguồn phần mềm). Nhưng làm thế nào tự động hóa nghiên cứu được áp dụng ra toàn bộ các ngành Khoa học tự nhiên thực nghiệm (Sinh học, Hóa học, Vật liệu, Vật lý) với sự xuất hiện của robot phòng thí nghiệm? Đọc Paper #03 để mở rộng tầm nhìn toàn cảnh và có thang đo 4 Cấp độ Tự chủ.
 
 ---
 
