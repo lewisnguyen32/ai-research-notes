@@ -6,7 +6,7 @@ Dự án này lưu trữ tài liệu, bản tóm tắt ngắn và phân tích ch
 
 ## 📌 File Shortcuts & Navigation (Bảng Phím Tắt Truy Cập)
 
-| STT / Mã ID | Tên bài báo (Paper Title) | Chủ đề (Topic) | Ngày/Năm | PDF Gốc | Phân tích Chi tiết |
+| STT / Mã ID | Tên bài báo (Paper Title) | Chủ đề (Topic) | Tháng/Năm | PDF Gốc | Phân tích Chi tiết |
 | :---: | :--- | :---: | :---: | :---: | :---: |
 | `2607.27191v1` | Can AI agents conduct open-ended AI research? Early evidence from two case studies | AI Agents / R&D Automation | 07/2026 | [📄 PDF](2607.27191v1.pdf) | [📝 Phân tích](papers/2607.27191v1-can-ai-agents-conduct-open-ended-ai-research.md) |
 
