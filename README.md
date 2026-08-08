@@ -20,11 +20,11 @@ Designed specifically for seamless reading on **GitHub Mobile & Web**.
 ## 🧭 Research Focus & Reading Roadmap
 
 ```mermaid
-graph TD
-    A[AI R&D Automation] --> B[Verifiable Benchmarks]
-    A --> C[Shadow Evaluations]
-    C --> D[5 Failure Modes in Open-ended Research]
-    D --> E[Human-in-the-Loop R&D & Verifier Models]
+flowchart TD
+    A["AI R&D Automation"] --> B["Verifiable Benchmarks"]
+    A --> C["Shadow Evaluations"]
+    C --> D["5 Failure Modes in Open-ended Research"]
+    D --> E["Human-in-the-Loop R&D & Verifier Models"]
 ```
 
 - 📖 **Current Priority**: Năng lực và giới hạn thực tế của AI Agent trong việc tự chủ tiến hành nghiên cứu khoa học mở (Open-ended AI Research).
@@ -38,15 +38,18 @@ graph TD
 
 #### 1. Can AI agents conduct open-ended AI research? Early evidence from two case studies
 - **Mã arXiv**: [arXiv:2607.27191v1](https://arxiv.org/abs/2607.27191) (29/07/2026)
-- **Tác giả**: Peter Kirgis, Sayash Kapoor, Arvind Narayanan et al. *(Princeton, UK AISI, Toronto, Stanford, Berkeley)*
+- **Tác giả chính**: Peter Kirgis*, Sayash Kapoor*, Andrew Schwartz*, Stephan Rabanser* (*CRUX 2 Core Team), Arvind Narayanan† et al. *(Princeton University, Cornflower Labs, UK AISI, Univ. of Toronto, Stanford, UC Berkeley)*
+- **Cấu hình Đánh giá**:
+  - **Base Models**: `Claude Opus 4.8` (Anthropic), `GPT-5.6 Sol` (OpenAI)
+  - **Agent Scaffolds**: `OpenClaw` (Main run), `Codex` (Robustness check)
 - **Chủ đề**: `#AI-Agents` `#R&D-Automation` `#Agentic-Evaluations`
 - **Trạng thái**: ⭐ Important / ✅ Read
 - **Tóm tắt nhanh**:
-  Thử nghiệm khả năng tự chủ làm nghiên cứu AI của Frontier Agents (Opus 4.8 / GPT-5.6 Sol) thông qua phương pháp **Shadow Evaluations** (giao câu hỏi từ bài báo NeurIPS chưa công bố). Kết quả: Agent hoàn thành 100% công việc kỹ thuật R&D nhưng **thất bại hoàn toàn ở khía cạnh nghiên cứu mở** (bị chuyên gia từ chối 2/6 và 1/6) do 5 chế độ thất bại cốt lõi.
+  Thử nghiệm khả năng tự chủ làm nghiên cứu AI của Frontier Agents thông qua phương pháp **Shadow Evaluations** (giao câu hỏi từ bài báo NeurIPS chưa công bố). Kết quả: Agent hoàn thành 100% công việc kỹ thuật R&D nhưng **thất bại hoàn toàn ở khía cạnh nghiên cứu mở** (bị chuyên gia từ chối 2/6 và 1/6) do 5 chế độ thất bại cốt lõi.
 - **Truy cập nhanh**:
   - 📝 [Xem Phân Tích Chi Tiết (Paper Note)](papers/2607.27191v1-can-ai-agents-conduct-open-ended-ai-research.md)
   - 🇻🇳 [Xem Bản Dịch Tiếng Việt](papers/2607.27191v1-translation-vi.md)
-  - 📄 [Tệp PDF Gốc trong Repo](2607.27191v1.pdf)
+  - 📄 [Tệp PDF Gốc trong Thư Mục](papers/2607.27191v1.pdf)
 
 ---
 
@@ -59,6 +62,5 @@ graph TD
 
 ## 📂 Navigation & Structure
 
-- [`papers/`](papers/) — Chi tiết phân tích bài báo và bản dịch tiếng Việt.
+- [`papers/`](papers/) — Chi tiết phân tích bài báo, bản dịch tiếng Việt và PDF gốc.
 - [`resources/`](resources/) — Thuật ngữ, tài liệu tra cứu và danh sách tham khảo.
-- `*.pdf` — Tệp PDF bài báo gốc để lưu trữ và đọc offline.
