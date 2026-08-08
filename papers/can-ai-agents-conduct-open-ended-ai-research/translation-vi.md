@@ -5,9 +5,9 @@
 - **Tác giả chính**: Peter Kirgis*, Sayash Kapoor*, Andrew Schwartz*, Stephan Rabanser* (*Đóng góp ngang nhau | †Đội ngũ nòng cốt CRUX 2), Arvind Narayanan† et al.
 - **Đơn vị / Phòng thí nghiệm**: Princeton University, Cornflower Labs, UK AI Security Institute (UK AISI), University of Toronto, UC Berkeley, Georgetown University (CSET), Johns Hopkins University, Golden Gate Institute for AI, AI Digest, Stanford University.
 - **Tài nguyên liên quan**:
-  - 📝 [Paper Note Phân tích Chi tiết (Main Note)](2607.27191v1-can-ai-agents-conduct-open-ended-ai-research.md)
-  - 📄 [Tệp PDF Gốc trong Thư Mục](2607.27191v1.pdf)
-  - 📖 [Thuật ngữ Chuyên ngành (Glossary)](../resources/glossary-ai-research-terms.md)
+  - 📝 [Paper Note Phân tích Chi tiết (Main Note)](analysis.md)
+  - 📄 [Tệp PDF Gốc trong Thư Mục](paper.pdf)
+  - 📖 [Thuật ngữ Chuyên ngành (Glossary)](../../resources/glossary-ai-research-terms.md)
 
 ---
 
@@ -108,7 +108,7 @@ Mặc dù các Agent có thể giải quyết tốt toàn bộ các bài toán k
 
 ### Các điểm sáng & Hạn chế của Agent:
 - **Điểm mạnh về Kỹ thuật**: Agent tự động tổng quan tài liệu quy mô lớn, cài đặt môi trường GPU, tự sửa lỗi crash-loop, chạy hàng trăm thực nghiệm và biên dịch tài liệu LaTeX chuẩn định dạng không cần con người can thiệp.
-- **Điểm yếu về Nghiên cứu**: Agent thiếu tư tư phản biện khoa học, vội vàng từ bỏ các giả thuyết tham vọng để chọn hướng đi an toàn/kết quả tiêu cực (negative results), và trình bày bài báo kém chất lượng (thiếu hình vẽ minh họa, vượt quá số trang quy định).
+- **Điểm yếu về Nghiên cứu**: Agent thiếu tư duy phản biện khoa học, vội vàng từ bỏ các giả thuyết tham vọng để chọn hướng đi an toàn/kết quả tiêu cực (negative results), và trình bày bài báo kém chất lượng (thiếu hình vẽ minh họa, vượt quá số trang quy định).
 
 ---
 
@@ -154,6 +154,7 @@ Mặc dù các Agent có thể giải quyết tốt toàn bộ các bài toán k
 ---
 
 ## 🔗 Liên kết Nhanh
-- 📝 [Paper Note Phân tích Chi tiết](2607.27191v1-can-ai-agents-conduct-open-ended-ai-research.md)
-- 📄 [Tệp PDF Gốc trong Thư Mục](2607.27191v1.pdf)
-- 🏠 [Trang chủ README](../README.md)
+- 📝 [Paper Note Phân tích Chi tiết](analysis.md)
+- 📄 [Tệp PDF Gốc trong Thư Mục](paper.pdf)
+- 📖 [Thuật Ngữ Chuyên Ngành AI Research](../../resources/glossary-ai-research-terms.md)
+- 🏠 [Trang chủ README](../../README.md)

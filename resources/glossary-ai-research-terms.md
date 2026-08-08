@@ -118,4 +118,4 @@ Tài liệu này tổng hợp các thuật ngữ chuyên ngành Machine Learning
 
 ## 🔗 Liên kết Nhanh
 - 🏠 [Trang chủ README](../README.md)
-- 📝 [Paper Note arXiv:2607.27191v1](../papers/2607.27191v1-can-ai-agents-conduct-open-ended-ai-research.md)
+- 📝 [Paper Note arXiv:2607.27191v1](../papers/can-ai-agents-conduct-open-ended-ai-research/analysis.md)

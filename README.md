@@ -1,66 +1,53 @@
-# 🧠 Personal AI Research Notebook & External Memory
+# 🧠 AI Research Library & External Memory
 
-Welcome to my personal AI research notebook — a dedicated **"Second Brain"** for tracking cutting-edge developments in Artificial Intelligence, with a primary focus on **Frontier AI Models**, **AI Agents**, and **AI R&D Automation**.
-
-Designed specifically for seamless reading on **GitHub Mobile & Web**.
+Personal research library for tracking cutting-edge developments in AI, frontier models, AI agents, and AI-assisted scientific research. Designed for fast navigation and mobile-first reading.
 
 ---
 
-## 📌 About This Notebook
+## 📚 Papers Library
 
-- **Mục đích**: Lưu giữ paper notes, bản phân tích chuyên sâu, bản dịch tiếng Việt và thuật ngữ chuyên ngành để tra cứu mọi lúc mọi nơi trên điện thoại hoặc máy tính.
-- **Trọng tâm nghiên cứu**:
-  - 🤖 **AI Agents & R&D Automation**: Năng lực tự động hóa nghiên cứu và phát triển AI.
-  - 🧪 **Agentic Evaluations & Benchmarks**: Phương pháp đánh giá độ tin cậy và giới hạn của AI Agents.
-  - 🧠 **Frontier Models & Scaling**: Khả năng suy luận, kiến trúc mô hình và quy luật mở rộng.
-  - ⚠️ **AI Safety & Alignment**: Liêm chính khoa học, phòng tránh reward hacking và lệch lạc phát sinh.
+| Paper | Topics | Status | Links |
+| --- | --- | --- | --- |
+| [Can AI agents conduct open-ended AI research?](papers/can-ai-agents-conduct-open-ended-ai-research/analysis.md) | `#AI-Agents` `#R&D-Automation` `#Agentic-Evaluations` | ⭐ Important | 📝 [Analysis](papers/can-ai-agents-conduct-open-ended-ai-research/analysis.md) \| 🇻🇳 [Translation](papers/can-ai-agents-conduct-open-ended-ai-research/translation-vi.md) \| 📄 [PDF](papers/can-ai-agents-conduct-open-ended-ai-research/paper.pdf) |
 
 ---
 
-## 🧭 Research Focus & Reading Roadmap
+## 🏷️ Topics
 
-```mermaid
-flowchart TD
-    A["AI R&D Automation"] --> B["Verifiable Benchmarks"]
-    A --> C["Shadow Evaluations"]
-    C --> D["5 Failure Modes in Open-ended Research"]
-    D --> E["Human-in-the-Loop R&D & Verifier Models"]
-```
+Knowledge synthesis across multiple papers:
 
-- 📖 **Current Priority**: Năng lực và giới hạn thực tế của AI Agent trong việc tự chủ tiến hành nghiên cứu khoa học mở (Open-ended AI Research).
-- 🎯 **Next Up**: Các kỹ thuật xây dựng Verifier Models, cơ chế Backtracking & Memory cho AI Agents trong các dự án kéo dài nhiều ngày.
+- 🤖 **[AI Agents](topics/ai-agents.md)** — Agent scaffolds, harnesses, failure modes, generator-verifier gap.
+- 🔬 **[AI Research & Automation](topics/ai-research-automation.md)** — Shadow evaluations, verifiable benchmarks, execution vs direction layers.
+- 🧠 **[Frontier Models](topics/frontier-models.md)** — Reasoning capabilities, extra-high compute, scaling limits.
 
 ---
 
-## 📚 Papers Index (Danh Sách Bài Báo)
+## 📖 Reading Roadmap
 
-### ⭐ Featured Papers
+### ⭐ Must Read
+- **[Can AI agents conduct open-ended AI research?](papers/can-ai-agents-conduct-open-ended-ai-research/analysis.md)** — Early evidence from two case studies on agentic R&D capabilities.
 
-#### 1. Can AI agents conduct open-ended AI research? Early evidence from two case studies
-- **Mã arXiv**: [arXiv:2607.27191v1](https://arxiv.org/abs/2607.27191) (29/07/2026)
-- **Tác giả chính**: Peter Kirgis*, Sayash Kapoor*, Andrew Schwartz*, Stephan Rabanser* (*CRUX 2 Core Team), Arvind Narayanan† et al. *(Princeton University, Cornflower Labs, UK AISI, Univ. of Toronto, Stanford, UC Berkeley)*
-- **Cấu hình Đánh giá**:
-  - **Base Models**: `Claude Opus 4.8` (Anthropic), `GPT-5.6 Sol` (OpenAI)
-  - **Agent Scaffolds**: `OpenClaw` (Main run), `Codex` (Robustness check)
-- **Chủ đề**: `#AI-Agents` `#R&D-Automation` `#Agentic-Evaluations`
-- **Trạng thái**: ⭐ Important / ✅ Read
-- **Tóm tắt nhanh**:
-  Thử nghiệm khả năng tự chủ làm nghiên cứu AI của Frontier Agents thông qua phương pháp **Shadow Evaluations** (giao câu hỏi từ bài báo NeurIPS chưa công bố). Kết quả: Agent hoàn thành 100% công việc kỹ thuật R&D nhưng **thất bại hoàn toàn ở khía cạnh nghiên cứu mở** (bị chuyên gia từ chối 2/6 và 1/6) do 5 chế độ thất bại cốt lõi.
-- **Truy cập nhanh**:
-  - 📝 [Xem Phân Tích Chi Tiết (Paper Note)](papers/2607.27191v1-can-ai-agents-conduct-open-ended-ai-research.md)
-  - 🇻🇳 [Xem Bản Dịch Tiếng Việt](papers/2607.27191v1-translation-vi.md)
-  - 📄 [Tệp PDF Gốc trong Thư Mục](papers/2607.27191v1.pdf)
+### 📖 Currently Reading
+- *(Adding new papers as research progresses)*
+
+### 🗃️ All Papers
+- [Can AI agents conduct open-ended AI research? Early evidence from two case studies](papers/can-ai-agents-conduct-open-ended-ai-research/analysis.md) (2026)
 
 ---
 
 ## 🛠️ Resources & Shared References
 
-- 📖 **[Thuật Ngữ Chuyên Ngành AI Research & Evaluation](resources/glossary-ai-research-terms.md)**  
-  Tài liệu tra cứu hơn 30+ thuật ngữ ML, AI Agents, Failure Modes và Evaluation Concepts (Open-ended Research, Shadow Evaluations, Epistemic Lock-in, Instruction Drift, Generator-Verifier Gap...).
+- 📖 **[Glossary of AI Research Terms](resources/glossary-ai-research-terms.md)**  
+  Tài liệu tra cứu thuật ngữ ML, AI Agents, Evaluation Concepts (Shadow Evaluations, Generator-Verifier Gap, Context Rot, Instruction Drift...).
 
 ---
 
-## 📂 Navigation & Structure
+## ⚡ Workflow for Adding New Papers
 
-- [`papers/`](papers/) — Chi tiết phân tích bài báo, bản dịch tiếng Việt và PDF gốc.
-- [`resources/`](resources/) — Thuật ngữ, tài liệu tra cứu và danh sách tham khảo.
+To add a new paper to the library:
+
+1. Create a paper folder: `papers/<paper-slug>/`
+2. Drop the PDF inside: `papers/<paper-slug>/paper.pdf`
+3. Prompt Agent:
+   > *"Analyze this paper and prepare it for my AI research library."*
+4. Agent will generate `analysis.md` (and optional `translation-vi.md`) using the standard library format and update this index catalog.
