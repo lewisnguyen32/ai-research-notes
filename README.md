@@ -1,6 +1,6 @@
 # AI Research Paper Summaries & Analysis
 
-Dự án này lưu trữ tài liệu, bản tóm tắt ngắn, phân tích chi tiết, bản dịch tiếng Việt và bộ thuật ngữ chuyên ngành từ các bài báo nghiên cứu AI nổi bật.
+Kho lưu trữ cá nhân tổng hợp tài liệu, bản tóm tắt ngắn, phân tích chi tiết, bản dịch tiếng Việt và bộ thuật ngữ chuyên ngành từ các bài báo nghiên cứu AI nổi bật.
 
 ---
 
