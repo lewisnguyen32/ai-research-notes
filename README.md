@@ -1,10 +1,41 @@
-# 🧠 AI Research Library & External Memory
+# 🧠 Personal AI Research Library & External Memory
 
-Personal research library for tracking cutting-edge developments in AI, frontier models, AI agents, and AI-assisted scientific research. Designed for fast navigation and mobile-first reading.
+A personal, user-curated research library for storing, analyzing, and referencing key papers in AI, frontier models, AI agents, and scientific research. Designed for fast navigation and mobile-friendly reading on GitHub.
 
 ---
 
-## 📚 Papers Library
+## 🎯 Repository Purpose & Agent Boundaries
+
+- **User as Curator**: Papers in this repository are intentionally selected and supplied by the user.
+- **Agent as Assistant**: AI agents process and analyze **only** the papers explicitly provided by the user (generating structured notes, Vietnamese translations, and cross-paper synthesis).
+- **Persistent Reading Interface**: GitHub serves as the persistent catalog and convenient mobile-friendly reading interface for long-term reference.
+
+> 🚫 **What this repository is NOT**: This repository is not an autonomous research system, paper search engine, web crawler, or automated literature discovery pipeline. Agents do not independently search for, discover, or pull external papers.
+
+---
+
+## ⚡ Workflow Model
+
+```
+User selects paper ➔ PDF added to repository ➔ Agent analyzes supplied paper ➔ Analysis / translation generated ➔ Repository index updated ➔ User reads on PC or mobile
+```
+
+1. **User Selection**: User chooses a paper and adds `paper.pdf` to `papers/<paper-slug>/`.
+2. **Agent Processing**: Agent analyzes the provided paper to generate `analysis.md` (and optional `translation-vi.md`).
+3. **Synthesis & Indexing**: Agent updates reading paths in `topics/` (connecting papers *already* in the repository) and logs the entry in `README.md`.
+4. **Reading & Reference**: User reads and reviews paper notes on PC or mobile.
+
+---
+
+## 📂 Repository Structure
+
+- 📄 **[`papers/`](papers/)**: Individual papers curated by the user, containing the original PDF, detailed analysis notes, and optional Vietnamese translations.
+- 🏷️ **[`topics/`](topics/)**: Thematic synthesis and reading paths connecting papers *already present* in this repository.
+- 🛠️ **[`resources/`](resources/)**: Shared reference material, including domain glossaries and evaluation terms.
+
+---
+
+## 📚 Papers Catalog
 
 | Paper | Topics | Status | Links |
 | --- | --- | --- | --- |
@@ -16,7 +47,7 @@ Personal research library for tracking cutting-edge developments in AI, frontier
 
 ## 🏷️ Topics & Reading Paths
 
-Knowledge synthesis across multiple papers:
+Syntheses and reading maps across papers currently in the repository:
 
 - 🗺️ **[Autonomous AI Research Reading Path](topics/autonomous-ai-research.md)** — Master reading map answering: *"AI có thể tự thực hiện nghiên cứu khoa học đến mức nào?"*
 - 🤖 **[AI Agents](topics/ai-agents.md)** — Agent scaffolds, harnesses, failure modes, generator-verifier gap.
@@ -49,10 +80,10 @@ Knowledge synthesis across multiple papers:
 
 ## ⚡ Workflow for Adding New Papers
 
-To add a new paper to the library:
+To add a new paper to your library:
 
 1. Create a paper folder: `papers/<paper-slug>/`
-2. Drop the PDF inside: `papers/<paper-slug>/paper.pdf`
+2. Save the PDF inside: `papers/<paper-slug>/paper.pdf`
 3. Prompt Agent:
    > *"Analyze this paper and prepare it for my AI research library."*
-4. Agent will generate `analysis.md` (and optional `translation-vi.md`) using the standard library format and update this index catalog.
+4. Agent generates `analysis.md` (and optional `translation-vi.md`) using standard library formatting and updates catalog links.

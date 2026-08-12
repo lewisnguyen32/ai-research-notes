@@ -1,6 +1,10 @@
+[← Library README](../README.md) | [Glossary](../resources/glossary-ai-research-terms.md)
+
 # AI Research & R&D Automation
 
-Tổng hợp các nghiên cứu về tự động hóa quy trình R&D khoa học (Scientific AI R&D), phương pháp kiểm thử năng lực tự chủ nghiên cứu của AI.
+> 📌 **Scope**: Synthesis across papers currently present in this user-curated repository.
+
+Tổng hợp các nghiên cứu về tự động hóa quy trình R&D khoa học (Scientific AI R&D) và phương pháp kiểm thử năng lực tự chủ nghiên cứu của AI dựa trên các tài liệu có sẵn trong thư viện.
 
 ---
 

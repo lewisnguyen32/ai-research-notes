@@ -1,3 +1,5 @@
+[← Library README](../../README.md) | [Reading Path](../../topics/autonomous-ai-research.md) | [Glossary](../../resources/glossary-ai-research-terms.md)
+
 # [Bản Dịch Tiếng Việt] Liệu các AI Agent có thể tiến hành nghiên cứu AI mở? Bằng chứng sớm từ hai nghiên cứu điển hình
 
 - **Paper gốc**: *Can AI agents conduct open-ended AI research? Early evidence from two case studies*

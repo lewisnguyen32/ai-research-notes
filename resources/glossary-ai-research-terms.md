@@ -1,3 +1,5 @@
+[← Library README](../README.md)
+
 # Thuật Ngữ Chuyên Ngành AI Research & Agentic Evaluation (Glossary)
 
 Tài liệu này tổng hợp các thuật ngữ chuyên ngành Machine Learning, AI Agents và Đánh giá Tự động hóa R&D (AI R&D Automation), trích xuất từ bài báo *Can AI agents conduct open-ended AI research? Early evidence from two case studies* ([arXiv:2607.27191v1](https://arxiv.org/abs/2607.27191)).

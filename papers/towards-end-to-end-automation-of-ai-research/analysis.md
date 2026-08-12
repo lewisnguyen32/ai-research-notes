@@ -1,3 +1,5 @@
+[← Library README](../../README.md) | [Reading Path](../../topics/autonomous-ai-research.md) | [Glossary](../../resources/glossary-ai-research-terms.md)
+
 # Towards end-to-end automation of AI research (The AI Scientist)
 
 **Authors:** Chris Lu*, Cong Lu*, Robert Tjarko Lange*, Yutaro Yamada, Shengran Hu, Jakob Foerster, David Ha, Jeff Clune (*Equal contribution) (Sakana AI, University of British Columbia, University of Oxford)  

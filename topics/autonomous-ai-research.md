@@ -1,9 +1,13 @@
+[← Library README](../README.md) | [Glossary](../resources/glossary-ai-research-terms.md)
+
 # 🗺️ Reading Path: Autonomous Scientific Research & AI Agents
+
+> 📌 **Scope**: Synthesis across papers currently present in this user-curated repository.
 
 > **Câu hỏi cốt lõi của Chủ đề:**  
 > *"AI có thể tự thực hiện nghiên cứu khoa học đến mức nào mà không cần con người, hoặc có thể giảm sự phụ thuộc vào con người một cách đáng kể?"*
 
-Lộ trình đọc này kết nối 3 bài báo quan trọng nhất đại diện cho các góc nhìn và giai đoạn phát triển khác nhau của tự động hóa nghiên cứu khoa học. Mục tiêu giúp người đọc hình thành một **bức tranh toàn cảnh về tiến trình khoa học (narrative progression)** thay vì đọc các bản tóm tắt rời rạc.
+Lộ trình đọc này kết nối 3 bài báo trong thư viện đại diện cho các góc nhìn và giai đoạn phát triển khác nhau của tự động hóa nghiên cứu khoa học. Mục tiêu giúp người đọc hình thành một **bức tranh toàn cảnh về tiến trình khoa học (narrative progression)** thay vì đọc các bản tóm tắt rời rạc.
 
 ---
 

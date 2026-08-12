@@ -1,6 +1,10 @@
+[← Library README](../README.md) | [Glossary](../resources/glossary-ai-research-terms.md)
+
 # AI Agents & Agentic Harnesses
 
-Tong hợp kiến thức, xu hướng và phát hiện về khả năng tự chủ của **AI Agents**, các khung điều phối (scaffolds) và phương pháp đánh giá thực tế.
+> 📌 **Scope**: Synthesis across papers currently present in this user-curated repository.
+
+Tổng hợp kiến thức, xu hướng và phát hiện về khả năng tự chủ của **AI Agents**, các khung điều phối (scaffolds) và phương pháp đánh giá thực tế dựa trên các bài báo có sẵn trong thư viện.
 
 ---
 

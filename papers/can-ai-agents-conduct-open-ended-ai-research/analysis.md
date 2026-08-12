@@ -1,3 +1,5 @@
+[← Library README](../../README.md) | [Reading Path](../../topics/autonomous-ai-research.md) | [Glossary](../../resources/glossary-ai-research-terms.md)
+
 # Can AI agents conduct open-ended AI research? Early evidence from two case studies
 
 **Authors:** Peter Kirgis*, Sayash Kapoor*, Andrew Schwartz*, Stephan Rabanser* (*Equal contribution, †CRUX Core Team), Arvind Narayanan† et al. (Princeton University, Cornflower Labs, UK AISI, Univ. of Toronto, Stanford, UC Berkeley, Georgetown CSET, Johns Hopkins)  

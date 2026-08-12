@@ -1,3 +1,5 @@
+[← Library README](../../README.md) | [Reading Path](../../topics/autonomous-ai-research.md) | [Glossary](../../resources/glossary-ai-research-terms.md)
+
 # From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery
 
 **Authors:** Jiaqi Wei*, Yuejin Yang*, Xiang Zhang*, Yuhan Chen*, Xiang Zhuang*, Zhangyang Gao*, Dongzhan Zhou*, Siqi Sun†, Lei Bai†, Bowen Zhou† et al. (Shanghai AI Laboratory, Zhejiang Univ, Fudan Univ, Tsinghua Univ, CUHK, Jiao Tong Univ)  

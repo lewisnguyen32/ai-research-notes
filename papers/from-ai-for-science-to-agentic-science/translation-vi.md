@@ -1,3 +1,5 @@
+[← Library README](../../README.md) | [Reading Path](../../topics/autonomous-ai-research.md) | [Glossary](../../resources/glossary-ai-research-terms.md)
+
 # Từ AI cho Khoa học đến Khoa học Agentic: Khảo sát về Khám phá Khoa học Tự chủ
 
 **Tác giả:** Jiaqi Wei*, Yuejin Yang*, Xiang Zhang*, Yuhan Chen*, Xiang Zhuang*, Zhangyang Gao*, Dongzhan Zhou*, Siqi Sun†, Lei Bai†, Bowen Zhou† et al. (Phòng thí nghiệm AI Thượng Hải, Đại học Chiết Giang, Đại học Phục Đán, Đại học Thanh Hoa, CUHK, Đại học Giao thông Thượng Hải)  

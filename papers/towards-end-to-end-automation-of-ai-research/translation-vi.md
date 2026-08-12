@@ -1,3 +1,5 @@
+[← Library README](../../README.md) | [Reading Path](../../topics/autonomous-ai-research.md) | [Glossary](../../resources/glossary-ai-research-terms.md)
+
 # Hướng tới Tự động hóa Toàn diện Nghiên cứu AI (The AI Scientist)
 
 **Tác giả:** Chris Lu*, Cong Lu*, Robert Tjarko Lange*, Yutaro Yamada, Shengran Hu, Jakob Foerster, David Ha, Jeff Clune (*Đồng đóng góp chính) (Sakana AI, Đại học British Columbia, Đại học Oxford)  

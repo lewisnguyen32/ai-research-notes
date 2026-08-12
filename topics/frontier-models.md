@@ -1,6 +1,10 @@
+[← Library README](../README.md) | [Glossary](../resources/glossary-ai-research-terms.md)
+
 # Frontier Models & Reasoning Capabilities
 
-Tổng hợp thông tin, năng lực suy luận và quy luật mở rộng (scaling laws) của các dòng **Frontier AI Models**.
+> 📌 **Scope**: Synthesis across papers currently present in this user-curated repository.
+
+Tổng hợp thông tin, năng lực suy luận và quy luật mở rộng (scaling laws) của các dòng **Frontier AI Models** dựa trên các bài báo có sẵn trong thư viện.
 
 ---
 
